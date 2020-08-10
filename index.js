@@ -109,7 +109,7 @@ const express = require("express");
 const app = express();
 
 //the port that the server will listen on
-const port = 8081;
+const port = process.env.PORT || 8081;
 
 //this route has two parameters
 //input is a string
